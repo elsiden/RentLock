@@ -1,0 +1,31 @@
+@mixin header
+	padding: 0
+	color: $third-color
+	font-size: 40px
+	font-weight: 500
+	
+@mixin linkUL1
+	background: linear-gradient($third-color 50%, $third-color 50%) center bottom/cover no-repeat
+	background-size: 0 1px, 100% 1px
+	padding-bottom: 3px
+	transition: .5s
+	font-weight: 300
+	font-size: 20px
+	color: $third-color
+	&:hover
+		background-size: 100% 1px, 100% 1px
+		color: $third-color
+		transition: .5s
+
+@mixin linkUL2
+	background: linear-gradient($first-color 50%, $first-color 50%) center bottom/cover no-repeat
+	background-size: 0 1px, 100% 1px
+	padding-bottom: 3px
+	transition: .5s
+	font-size: 20px
+	font-weight: 300
+	color: $first-color
+	&:hover
+		background-size: 100% 1px, 100% 1px
+		color: $first-color
+		transition: .5s
