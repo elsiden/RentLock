@@ -1,1 +1,1 @@
-# _ RentLock link: http://rentlock.000webhostapp.com/php/index.php
+# RentLock link: http://rentlock.000webhostapp.com/php/index.php
